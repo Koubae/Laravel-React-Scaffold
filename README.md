@@ -26,6 +26,7 @@ npx create-react-app app --template typescript
 npm install ts-loader --save-dev --legacy-peer-deps
 
 rm -R vendor 
+rm -R .git 
 
 ```
 
