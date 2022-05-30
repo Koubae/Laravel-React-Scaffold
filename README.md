@@ -12,7 +12,7 @@ Installations
 
 
 ```shell
-
+git clone https://github.com/Koubae/Laravel-React-Scaffold.git
 laravel new my_app 
 cd my_app 
 php artisan serve
