@@ -1,3 +1,5 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+allow: /
+
+Sitemap: http://MY_SITE_UPDATE/sitemap.xml

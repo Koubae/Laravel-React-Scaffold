@@ -106,3 +106,10 @@ TODO
 * Create build shell scripts
 * Add react UI Framework 
 * 
+
+
+Deployment Checklist
+--------------------
+
+* Update robots.txt and add correct sitemap.xml
+* Add / Create correct sitemap.xml

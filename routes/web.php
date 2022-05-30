@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\MainController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Make home have some alias
+Route::controller(MainController::class)->group(function () {
+    Route::get('/', 'index');
+    Route::get('/home', 'index');
+    Route::get('/index', 'index');
 });
