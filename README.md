@@ -56,6 +56,46 @@ Comment all html inside body and add
 
 --------------------------
 
+Components
+----------
+
+### Laravel
+
+#### Views 
+
+* Index
+* More Sites
+* Contact Me
+* About 
+
+#### Functionalities
+
+* Email server to send email through Contact Me
+
+
+### React
+
+
+#### Stack
+
+* React Material | MUI
+
+
+Checklist TODO
+--------------
+
+When importing the app you should change at least the following 
+
+### React
+
+(These can be changed in the .env file as well)
+
+* APP_NAME
+* APP_ENV
+* APP_KEY
+* APP_URL
+
+* change email settings
 
 TODO
 -----
